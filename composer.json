@@ -1,0 +1,22 @@
+{
+    "name": "divineomega/php-reading-time",
+    "description": "Calculates reading time for text",
+    "type": "library",
+    "license": "LGPL-3.0-only",
+    "authors": [
+        {
+            "name": "Jordan Hall",
+            "email": "jordan@hall05.co.uk"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^5.7",
+        "satooshi/php-coveralls": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "DivineOmega\\ReadingTime\\": "./src/"
+        }
+    }
+}
