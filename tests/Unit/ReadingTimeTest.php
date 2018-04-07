@@ -1,8 +1,7 @@
 <?php
 
-use DivineOmega\PasswordExposed\PasswordStatus;
-use PHPUnit\Framework\TestCase;
 use DivineOmega\ReadingTime\ReadingTime;
+use PHPUnit\Framework\TestCase;
 
 class ReadingTimeTest extends TestCase
 {
