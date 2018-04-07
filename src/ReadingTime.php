@@ -15,6 +15,7 @@ class ReadingTime
     public function setWordsPerMinutes($wordsPerMinute)
     {
         $this->wordsPerMinute = $wordsPerMinute;
+
         return $this;
     }
 
