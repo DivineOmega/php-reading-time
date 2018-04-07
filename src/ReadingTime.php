@@ -12,7 +12,7 @@ class ReadingTime
         $this->content = $content;
     }
 
-    public function setWordsPerMinutes($wordsPerMinute)
+    public function setWordsPerMinute($wordsPerMinute)
     {
         $this->wordsPerMinute = $wordsPerMinute;
 

@@ -32,4 +32,12 @@ class ReadingTimeTest extends TestCase
 
         $this->assertEquals(24.599999999999998, (new ReadingTime($text))->seconds());
     }
+
+    public function testSmallTextReadingTimeSecondsDifferentWordPerMinute()
+    {
+        $wordPerMinute = 240;
+        $text = file_get_contents(__DIR__.'/data/small.txt');
+
+        $this->assertEquals(20.5, (new ReadingTime($text))->setWordsPerMinute(240)->seconds());
+    }
 }
