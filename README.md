@@ -1,2 +1,2 @@
-# php-reading-time
-⏱ Calculates reading time for text
+# ⏱ PHP Reading Time
+Calculates reading time for text
