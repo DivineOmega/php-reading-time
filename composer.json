@@ -9,14 +9,21 @@
             "email": "jordan@hall05.co.uk"
         }
     ],
-    "require": {},
+    "require": {
+        "php": ">=7.1"
+    },
     "require-dev": {
-        "phpunit/phpunit": "^5.7",
-        "satooshi/php-coveralls": "^2.0"
+        "phpunit/phpunit": "^7.0 || ^8.0",
+        "php-coveralls/php-coveralls": "^2.0"
     },
     "autoload": {
         "psr-4": {
             "DivineOmega\\ReadingTime\\": "./src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "DivineOmega\\ReadingTime\\Tests\\": "./tests/Unit/"
         }
     }
 }
